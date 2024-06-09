@@ -1,0 +1,19 @@
+[hostname]
+ssh_only = false
+format = '[$hostname](bold green) '
+trim_at = '.local'
+disabled = false
+
+[git_branch]
+symbol = '🌱 '
+truncation_length = 4
+truncation_symbol = ''
+
+[localip]
+ssh_only = false
+format = '- [$localipv4](bold blue) '
+disabled = false
+
+[kubernetes]
+format = 'on [⛵ ($cluster) \($namespace\)](dimmed green) '
+disabled = false
